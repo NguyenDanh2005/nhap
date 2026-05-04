@@ -75,58 +75,56 @@ Trong dự án xây dựng Hệ thống Quản lý Bệnh án Điện tử, các
 
 **Bảng 6.1: Bảng xác định cá nhân nhóm và phát triển**
 
-> *(Điền tên thành viên thực tế của nhóm vào cột Nhân sự)*
-
 | Giai đoạn | Tên công việc | Công việc chi tiết | Nhân sự |
 |---|---|---|---|
-| **1** | **Lên kế hoạch dự án** | 1.1 Khảo sát tính khả thi của dự án | [Trưởng nhóm] |
-| | | 1.2 Khảo sát yêu cầu nghiệp vụ bệnh viện | [Thành viên A] |
-| | | 1.3 Xây dựng tài liệu quản lý dự án | [Trưởng nhóm], [Thành viên B] |
-| | | 1.4 Xây dựng bản kế hoạch đảm bảo chất lượng | [Thành viên B] |
-| | | 1.5 Xây dựng bản kế hoạch quản lý cấu hình | [Thành viên A] |
-| | | 1.6 Xây dựng bản kế hoạch quản lý rủi ro | [Thành viên C] |
-| **2** | **Xác định yêu cầu** | 2.1 Xác định yêu cầu chung của hệ thống EMR | [Trưởng nhóm], [Thành viên B] |
-| | | 2.2 Xác định yêu cầu của bác sĩ và y tá | [Trưởng nhóm], [Thành viên B] |
-| | | 2.3 Xác định yêu cầu của hệ thống | [Thành viên C] |
-| | | 2.3.1 Xác định yêu cầu cho từng chức năng | [Trưởng nhóm], [Thành viên B] |
-| | | 2.3.2 Mô tả giao diện hệ thống | [Trưởng nhóm], [Thành viên B] |
-| | | 2.4 Xác định các yêu cầu phi chức năng | [Trưởng nhóm], [Thành viên B] |
-| **3** | **Phân tích hệ thống** | 3.1 Phân tích và đặc tả chức năng đăng nhập & phân quyền | [Thành viên C] |
-| | | 3.2 Phân tích và đặc tả chức năng quản lý bệnh nhân | [Thành viên A] |
-| | | 3.3 Phân tích và đặc tả chức năng đo sinh hiệu | [Thành viên A] |
-| | | 3.4 Phân tích và đặc tả chức năng lập bệnh án điện tử | [Thành viên C] |
-| | | 3.5 Phân tích và đặc tả chức năng kê đơn thuốc | [Thành viên C] |
-| | | 3.6 Phân tích và đặc tả chức năng quản lý lịch hẹn | [Thành viên A] |
-| | | 3.7 Phân tích và đặc tả chức năng báo cáo thống kê | [Thành viên C] |
-| **4** | **Thiết kế hệ thống** | 4.1 Thiết kế kiến trúc 2 tầng (Swing + Spring Boot) | [Thành viên C] |
-| | | 4.2 Thiết kế giao diện người dùng (UI/UX) | [Trưởng nhóm], [Thành viên C] |
-| | | 4.2.1 Thiết kế giao diện chung | [Trưởng nhóm], [Thành viên C] |
-| | | 4.2.2 Thiết kế giao diện từng chức năng | [Thành viên C] |
-| | | 4.3 Thiết kế cơ sở dữ liệu SQL Server | [Thành viên B] |
-| **5** | **Xây dựng hệ thống** | 5.1 Xây dựng cơ sở dữ liệu | [Thành viên B] |
-| | | 5.2 Xây dựng các module | [Thành viên C] |
-| | | 5.2.1 Xây dựng module đăng nhập & phân quyền | [Thành viên C] |
-| | | 5.2.2 Xây dựng module quản lý bệnh nhân | [Thành viên C] |
-| | | 5.2.3 Xây dựng module đo sinh hiệu | [Thành viên C] |
-| | | 5.2.4 Xây dựng module bệnh án điện tử (5 tab) | [Thành viên C] |
-| | | 5.2.5 Xây dựng module kê đơn thuốc | [Thành viên C] |
-| | | 5.2.6 Xây dựng Spring Boot API Server | [Thành viên C] |
-| | | 5.2.7 Xây dựng module báo cáo thống kê | [Thành viên C] |
-| | | 5.3 Tích hợp các chức năng đã xây dựng | [Thành viên C] |
-| **6** | **Kiểm thử phần mềm** | 6.1 Lập kế hoạch kiểm thử | [Thành viên A] |
-| | | 6.2 Kiểm thử các chức năng của hệ thống | [Thành viên A] |
-| | | 6.2.1 Kiểm thử module đăng nhập | [Thành viên A] |
-| | | 6.2.2 Kiểm thử module quản lý bệnh nhân | [Thành viên A] |
-| | | 6.2.3 Kiểm thử module đo sinh hiệu | [Thành viên A] |
-| | | 6.2.4 Kiểm thử module bệnh án điện tử | [Thành viên A] |
-| | | 6.2.5 Kiểm thử module kê đơn thuốc | [Thành viên A] |
-| | | 6.2.6 Kiểm thử Spring Boot API | [Thành viên A] |
-| | | 6.2.7 Kiểm thử module báo cáo thống kê | [Thành viên A] |
-| | | 6.3 Kiểm thử tích hợp hệ thống | [Thành viên C] |
-| | | 6.4 Lập báo cáo kiểm thử | [Thành viên A], [Trưởng nhóm] |
-| **7** | **Kết thúc & bàn giao** | 7.1 Viết tài liệu hướng dẫn sử dụng | [Trưởng nhóm] |
-| | | 7.2 Mô phỏng hoạt động của hệ thống | [Thành viên C] |
-| | | 7.3 Triển khai và bàn giao sản phẩm | [Trưởng nhóm], [Thành viên C] |
+| **1** | **Lên kế hoạch dự án** | 1.1 Khảo sát tính khả thi của dự án | Nguyễn Công Sơn |
+| | | 1.2 Khảo sát yêu cầu nghiệp vụ bệnh viện | Nguyễn Văn Quang |
+| | | 1.3 Xây dựng tài liệu quản lý dự án | Nguyễn Công Sơn, Nguyễn Văn Quang |
+| | | 1.4 Xây dựng bản kế hoạch đảm bảo chất lượng | Nguyễn Văn Quang |
+| | | 1.5 Xây dựng bản kế hoạch quản lý cấu hình | Nguyễn Văn Phương |
+| | | 1.6 Xây dựng bản kế hoạch quản lý rủi ro | Nguyễn Văn Danh |
+| **2** | **Xác định yêu cầu** | 2.1 Xác định yêu cầu chung của hệ thống EMR | Nguyễn Công Sơn, Nguyễn Văn Quang |
+| | | 2.2 Xác định yêu cầu của bác sĩ và y tá | Nguyễn Công Sơn, Nguyễn Văn Quang |
+| | | 2.3 Xác định yêu cầu của hệ thống | Nguyễn Văn Danh |
+| | | 2.3.1 Xác định yêu cầu cho từng chức năng | Nguyễn Văn Quang, Nguyễn Văn Danh |
+| | | 2.3.2 Mô tả giao diện hệ thống | Nguyễn Công Sơn, Nguyễn Văn Quang |
+| | | 2.4 Xác định các yêu cầu phi chức năng | Nguyễn Công Sơn, Nguyễn Văn Quang |
+| **3** | **Phân tích hệ thống** | 3.1 Phân tích và đặc tả chức năng đăng nhập & phân quyền | Nguyễn Văn Danh |
+| | | 3.2 Phân tích và đặc tả chức năng quản lý bệnh nhân | Nguyễn Văn Quang |
+| | | 3.3 Phân tích và đặc tả chức năng đo sinh hiệu | Nguyễn Văn Quang |
+| | | 3.4 Phân tích và đặc tả chức năng lập bệnh án điện tử | Nguyễn Văn Danh |
+| | | 3.5 Phân tích và đặc tả chức năng kê đơn thuốc | Nguyễn Văn Danh |
+| | | 3.6 Phân tích và đặc tả chức năng quản lý lịch hẹn | Nguyễn Văn Quang |
+| | | 3.7 Phân tích và đặc tả chức năng báo cáo thống kê | Nguyễn Văn Danh |
+| **4** | **Thiết kế hệ thống** | 4.1 Thiết kế kiến trúc 2 tầng (Swing + Spring Boot) | Nguyễn Văn Danh |
+| | | 4.2 Thiết kế giao diện người dùng (UI/UX) | Nguyễn Công Sơn, Nguyễn Văn Danh |
+| | | 4.2.1 Thiết kế giao diện chung | Nguyễn Công Sơn, Nguyễn Văn Danh |
+| | | 4.2.2 Thiết kế giao diện từng chức năng | Nguyễn Văn Danh |
+| | | 4.3 Thiết kế cơ sở dữ liệu SQL Server | Nguyễn Văn Danh |
+| **5** | **Xây dựng hệ thống** | 5.1 Xây dựng cơ sở dữ liệu | Nguyễn Văn Danh |
+| | | 5.2 Xây dựng các module | Nguyễn Văn Danh |
+| | | 5.2.1 Xây dựng module đăng nhập & phân quyền | Nguyễn Văn Danh |
+| | | 5.2.2 Xây dựng module quản lý bệnh nhân | Nguyễn Văn Danh |
+| | | 5.2.3 Xây dựng module đo sinh hiệu | Nguyễn Văn Danh |
+| | | 5.2.4 Xây dựng module bệnh án điện tử (5 tab) | Nguyễn Văn Danh |
+| | | 5.2.5 Xây dựng module kê đơn thuốc | Nguyễn Văn Danh |
+| | | 5.2.6 Xây dựng Spring Boot API Server | Nguyễn Văn Danh |
+| | | 5.2.7 Xây dựng module báo cáo thống kê | Nguyễn Văn Danh |
+| | | 5.3 Tích hợp các chức năng đã xây dựng | Nguyễn Văn Danh |
+| **6** | **Kiểm thử phần mềm** | 6.1 Lập kế hoạch kiểm thử | Nguyễn Văn Phương |
+| | | 6.2 Kiểm thử các chức năng của hệ thống | Nguyễn Văn Phương |
+| | | 6.2.1 Kiểm thử module đăng nhập | Nguyễn Văn Phương |
+| | | 6.2.2 Kiểm thử module quản lý bệnh nhân | Nguyễn Văn Phương |
+| | | 6.2.3 Kiểm thử module đo sinh hiệu | Nguyễn Văn Phương |
+| | | 6.2.4 Kiểm thử module bệnh án điện tử | Nguyễn Văn Phương |
+| | | 6.2.5 Kiểm thử module kê đơn thuốc | Nguyễn Văn Phương |
+| | | 6.2.6 Kiểm thử Spring Boot API | Nguyễn Văn Phương |
+| | | 6.2.7 Kiểm thử module báo cáo thống kê | Nguyễn Văn Phương |
+| | | 6.3 Kiểm thử tích hợp hệ thống | Nguyễn Văn Danh |
+| | | 6.4 Lập báo cáo kiểm thử | Nguyễn Văn Phương, Nguyễn Công Sơn |
+| **7** | **Kết thúc & bàn giao** | 7.1 Viết tài liệu hướng dẫn sử dụng | Nguyễn Công Sơn |
+| | | 7.2 Mô phỏng hoạt động của hệ thống | Nguyễn Văn Danh |
+| | | 7.3 Triển khai và bàn giao sản phẩm | Nguyễn Công Sơn, Nguyễn Văn Danh |
 
 ---
 
@@ -136,12 +134,12 @@ Trong dự án xây dựng Hệ thống Quản lý Bệnh án Điện tử, các
 
 **Bảng 6.2: Bảng các thành viên của đội dự án**
 
-| STT | Họ và tên | Địa chỉ liên hệ |
+| STT | Họ và tên | Vai trò |
 |---|---|---|
-| 1 | [Tên thành viên 1] | [Lớp/Email] |
-| 2 | [Tên thành viên 2] | [Lớp/Email] |
-| 3 | [Tên thành viên 3] | [Lớp/Email] |
-| 4 | [Tên thành viên 4] | [Lớp/Email] |
+| 1 | Nguyễn Công Sơn | Nhóm trưởng |
+| 2 | Nguyễn Văn Quang | Thành viên |
+| 3 | Nguyễn Văn Danh | Thành viên |
+| 4 | Nguyễn Văn Phương | Thành viên |
 
 **Quy tắc chung khi teamwork:**
 
@@ -193,7 +191,7 @@ Trong dự án xây dựng Hệ thống Quản lý Bệnh án Điện tử, các
 
 | STT | Họ tên nhân viên | Vị trí |
 |---|---|---|
-| 1 | [Tên thành viên 1] | Giám đốc dự án |
-| 2 | [Tên thành viên 2] | Người quản trị CSDL; Lập trình viên (Coder) |
-| 3 | [Tên thành viên 3] | Kỹ sư phân tích thiết kế (BA) |
-| 4 | [Tên thành viên 4] | Kỹ sư quản lý cấu hình; Kỹ sư kiểm tra chất lượng (Tester) |
+| 1 | Nguyễn Công Sơn | Giám đốc dự án |
+| 2 | Nguyễn Văn Quang | Kỹ sư phân tích thiết kế (BA) |
+| 3 | Nguyễn Văn Danh | Người quản trị CSDL; Lập trình viên (Coder) |
+| 4 | Nguyễn Văn Phương | Kỹ sư quản lý cấu hình; Kỹ sư kiểm tra chất lượng (Tester) |
